@@ -1,5 +1,4 @@
 before_install:
-  - rm ./mvn-build.sh
   - chmod +x ./mvn-build.sh
   - ./mvn-build.sh
 install:
