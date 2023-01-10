@@ -1,7 +1,3 @@
-before_install:
-   - ./mvn-build.sh
-install:
-   - echo "Running a custom install command"
-   - true
-env:
-   MYVAR: "custom environment variable"
+install: 
+  - FILE="-Dfile=libwebrtc.aar" 
+  - mvn install:install-file $FILE -DgroupId=github.com.Alan-GitHub -DartifactId=WebRTC-SDK -Dversion=aar-test -Dpackaging=aar -DgeneratePom=true
