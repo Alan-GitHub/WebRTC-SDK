@@ -2,7 +2,7 @@
 
 set -e
 
-VERSION=0.0.1
+VERSION=0.0.2
 
 RELEASE_VERSION=${VERSION}
 
@@ -12,7 +12,7 @@ BUILD_DIR=build
 mkdir -p ${BUILD_DIR}
 cd ${BUILD_DIR}
 
-echo "Downloading webrtc-sdk ${VERSION} binary for android."
+echo "Downloading WebRTC-SDK ${VERSION} binary for android."
 curl -L -O ${SDK_BIN_URL}
 
 mvn install:install-file \
