@@ -1,5 +1,5 @@
 before_install:
-  - ./mvn_build.sh
+  - ./mvn-build.sh
 install:
   - echo "Running a custom install command"
   - true
