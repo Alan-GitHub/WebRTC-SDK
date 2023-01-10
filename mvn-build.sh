@@ -20,4 +20,4 @@ mvn install:install-file \
     -Dpackaging=aar \
     -Dversion=${RELEASE_VERSION} \
     -DgroupId=com.github.Alan-GitHub \
-    -DartifactId=android
+    -DartifactId=WebRTC-SDK
