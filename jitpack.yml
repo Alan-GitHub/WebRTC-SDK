@@ -5,4 +5,4 @@ install:
   - echo "Running a custom install command"
   - true
 env:
-  MYVAR: "custom environment variable"
+  MYVAR: "custom environment variable" 
