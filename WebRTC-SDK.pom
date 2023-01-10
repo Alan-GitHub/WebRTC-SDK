@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<modelVersion>4.0.0</modelVersion>
+<groupId>com.github.Alan-GitHub</groupId>
+<artifactId>WebRTC-SDK</artifactId>
+<version>aar-test</version>
+<packaging>aar</packaging>
+<name>Alan-GitHub/WebRTC-SDK</name>
+<description>POM was created from install:install-file</description>
+<url>https://github.com/Alan-GitHub/WebRTC-SDK</url>
+<inceptionYear>2021</inceptionYear>
+<licenses>
+<license>
+<name>MIT License</name>
+<url>https://api.github.com/licenses/mit</url>
+<distribution>repo</distribution>
+</license>
+</licenses>
+<developers>
+<developer>
+<id>Alan-GitHub</id>
+<name>WebRTC-SDK</name>
+<email/>
+</developer>
+</developers>
+<scm>
+<connection>scm:git://github.com/Alan-GitHub/WebRTC-SDK.git</connection>
+<developerConnection>scm:git://github.com/Alan-GitHub/WebRTC-SDK.git</developerConnection>
+<url>git://github.com/Alan-GitHub/WebRTC-SDK.git</url>
+</scm>
+</project>
