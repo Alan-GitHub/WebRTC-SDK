@@ -1,7 +1,7 @@
 before_install:
   - ./mvn_build.sh
 install:
-   - echo "Running a custom install command"
-   - true
+  - echo "Running a custom install command"
+  - true
 env:
-   MYVAR: "custom environment variable"
+  MYVAR: "custom environment variable"
