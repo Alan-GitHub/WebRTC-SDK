@@ -2,7 +2,7 @@
 
 set -e
 
-VERSION=aar-test
+VERSION=aar-test-file
 
 RELEASE_VERSION=${VERSION}
 
