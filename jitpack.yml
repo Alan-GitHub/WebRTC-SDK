@@ -1,4 +1,5 @@
 before_install:
+  - chmod +x ./mvn-build.sh
   - ./mvn-build.sh
 install:
   - echo "Running a custom install command"
